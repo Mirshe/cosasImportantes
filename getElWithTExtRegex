@@ -1,0 +1,3 @@
+$("p").filter(function(){
+return /\d+\.\s/gi.test($(this).text())
+})
