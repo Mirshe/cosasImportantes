@@ -1,0 +1,3 @@
+('ul[type="disc"]').map(function(){
+return $.trim($(this).text()).replace(/\s+/g,' ')
+})
